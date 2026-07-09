@@ -280,8 +280,16 @@
     .clock .colon{font-size:26px;padding-top:8px}
     .cdpanel{padding:24px 16px}
     .idea,.glp{padding:26px 20px}
-    .ctable{font-size:13px}
-    .swipehint{display:block}
+    .ctable{font-size:10.5px;min-width:0;table-layout:fixed;width:100%}
+    .ctable th,.ctable td{padding:8px 4px;word-break:break-word;line-height:1.15}
+    .ctable td:first-child,.ctable th:first-child{width:30%}
+    .ctable-wrap{overflow-x:visible}
+    .swipehint{display:none}
+    .ttgrid blockquote{min-width:0 !important;max-width:100% !important}
+    .nav{height:56px}
+    .nav-cta .btn{padding:11px 14px;font-size:12.5px}
+    .topbar .wrap{font-size:11px;padding:7px 12px}
+    .statbar{gap:20px}
     .pgrid{grid-template-columns:1fr 1fr}
     .sticky{display:flex;box-shadow:0 -6px 20px rgba(0,0,0,.55)}
     body{padding-bottom:78px}
